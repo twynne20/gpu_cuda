@@ -6,10 +6,10 @@ Cuda on Google Collab
 `%%writefile thread_hierarchy.cu` 
 
 ## Compile with nvcc 
-!nvcc thread_hierarchy.cu -o thread_hierarchy
+`!nvcc thread_hierarchy.cu -o thread_hierarchy`
 
 ## Execute 
-!./thread_hierarchy
+`!./thread_hierarchy`
 
 # Resources 
 https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html
