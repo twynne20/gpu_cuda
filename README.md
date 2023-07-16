@@ -12,7 +12,8 @@ Cuda on Google Collab
 `!./thread_hierarchy`
 
 # Resources 
-https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html
+- https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html
+- https://safari.ethz.ch/projects_and_seminars/spring2022/doku.php?id=heterogeneous_systems
 
 # ChatGPT Visualizing Thread Hierarchy
 ## Visualization
