@@ -22,7 +22,7 @@ https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html
   Threads: t0 t1 t2 t3 | t0 t1 t2 t3
   Global Thread ID: 0  1  2  3  | 4  5  6  7 
   ```
-As you can see, each block (B0 and B1) contains 4 threads (t0 - t3). In the context of each block, threads are numbered from 0 to 3 (this is threadIdx.x). But in the global context, each thread has a unique global thread ID ranging from 0 to 7.
+  As you can see, each block (B0 and B1) contains 4 threads (t0 - t3). In the context of each block, threads are numbered from 0 to 3 (this is threadIdx.x). But in the global context, each thread has a unique global thread ID ranging from 0 to 7.
 -----
 - Let's imagine we have a 2D grid containing 2D blocks. Each block contains 2x2 threads and the grid contains 2x2 blocks. In a 2D representation, it could look like this:
   ```
